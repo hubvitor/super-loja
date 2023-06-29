@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: fonte-principal;
+  src: url(/fontes/martianmono-regular.ttf)
+}
+
+/* Configurações gerais */
+
+div#div-html {
+  border: 1px solid black;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+h1, h2, p, button, fieldset, a {
+  font-family: 'fonte-principal';
+}
+
+h2 {
+  background: mediumspringgreen;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button {
+  border-radius: 3px;
+  box-shadow: 1px 1px black;
+}
+
+img {
+  width: 35%;
+}
+
+.img-grande {
+  width: 20%;
+}
+
+/* Conteúdo */
+
+header {
+  background: mediumspringgreen;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 50%;
+}
+
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 8px;
+}
+
+section.links a{
+  background: royalblue;
+  box-shadow: 2px 2px black;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 12px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+section.links a:hover {
+  background: mediumblue;
+}
+
+section {
+  padding: 20px 8px;
+}
+
+section.produtos {
+  margin-bottom: 400px;
+}
+
+section img {
+  display: block;
+  margin: auto;
+  padding: 60px 0 10px 0;
+}
+
+section p {
+  background: mediumblue;
+  border-radius: 0 0 10px 10px;
+  color: white;
+  padding: 10px;
+}
+
+section button {
+  background: mediumspringgreen;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+article#variedades {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  padding: 25px;
+  width: 100px;
+}
